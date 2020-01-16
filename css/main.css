@@ -1,11 +1,35 @@
+html {
+  font-family: museo, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-family: dunbar-tall, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.tag {
+  font-family: museo, serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.bold {
+  font-family: museo, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .hover-box {
   color: #000;
 }
 
 .hover-box-caption {
-  bottom: -4em;
-  background-color: rgba(255, 255, 255, .9);
-  transition: all .2s linear;
+  bottom: -10em;
+  background-color: rgba(255, 255, 255, .8);
+  transition: all .25s linear;
 }
 
 .hover-box:hover .hover-box-caption,
@@ -19,4 +43,13 @@
 
 .hover-box:focus {
   z-index: 10;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
