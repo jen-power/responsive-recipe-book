@@ -57,6 +57,18 @@ header a:hover, footer a:hover {
   transition: all .6s linear;
 }
 
+footer {
+  border-top: 1px solid #ddd;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .unit-offset-s-1-4 {
+    margin-left: 25%;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   header nav ul li {
@@ -72,10 +84,22 @@ header a:hover, footer a:hover {
     text-align: right;
   }
 
-@media only screen and (min-width: 77em) {
+  .unit-offset-s-1-4 {
+    margin-left: 0;
+  }
+
+@media only screen and (min-width: 73em) {
 
   .extra-gutter {
     margin: 0 5em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .extra-gutter {
+    margin: 0 10em;
   }
 
 }
