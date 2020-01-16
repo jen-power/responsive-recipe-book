@@ -1,4 +1,4 @@
-html {
+html, .recipe-tag {
   font-family: museo, serif;
   font-weight: 300;
   font-style: normal;
@@ -90,6 +90,11 @@ footer {
 
   .logo-size {
     max-width: 12em;
+  }
+
+  .recipe-tag {
+    max-width: 50%;
+    transform: translateX(100%);
   }
 
 @media only screen and (min-width: 73em) {
