@@ -88,6 +88,10 @@ footer {
     margin-left: 0;
   }
 
+  .logo-size {
+    max-width: 12em;
+  }
+
 @media only screen and (min-width: 73em) {
 
   .extra-gutter {
