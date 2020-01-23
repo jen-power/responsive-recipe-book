@@ -45,6 +45,10 @@ h1 {
   z-index: 10;
 }
 
+ol li {
+  line-height: 2.2;
+}
+
 header a, footer a {
   text-decoration: none;
   color: #000;
@@ -92,10 +96,10 @@ footer {
     max-width: 12em;
   }
 
-  .recipe-tag {
+  /* .recipe-tag {
     max-width: 50%;
     transform: translateX(100%);
-  }
+  } */
 
 @media only screen and (min-width: 73em) {
 
