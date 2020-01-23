@@ -53,7 +53,6 @@ header a, footer a {
   text-decoration: none;
   color: #000;
   border-bottom: 1px solid #fff;
-
 }
 
 header a:hover, footer a:hover {
@@ -106,13 +105,15 @@ footer {
     margin-right: 0;
   }
 
-  @media only screen and (min-width:60em) {
+}
+
+@media only screen and (min-width: 60em) {
 
   .pad-left {
     padding-left: 1em;
   }
 
-  }
+}
 
 @media only screen and (min-width: 73em) {
 
